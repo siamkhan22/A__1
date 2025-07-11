@@ -3,6 +3,9 @@ body {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* shudu nav bar er jonno inter font */
@@ -49,10 +52,9 @@ nav .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 60px 0px;
+  padding: 182px 0px 120px 0px;
 
   border-radius: 16px;
-  margin: 50px auto;
   gap: 50px;
 }
 .action-text {
@@ -158,6 +160,7 @@ nav .nav-container {
   align-items: center;
   gap: 50px;
   max-width: 1140px;
+  padding-bottom: 70px;
 
 }
 .touch-left {
@@ -186,7 +189,7 @@ nav .nav-container {
 }
 .touch-right form input,
 .touch-right form textarea {
-width: 100%;
+ width: 93%;
   padding: 14px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
@@ -251,4 +254,13 @@ width: 100%;
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
+}
+
+
+button:hover {
+  background-color: #3730a3;
+}
+
+button{
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }

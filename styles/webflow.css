@@ -120,6 +120,10 @@ nav .nav-container {
 }
 .section-title {
   text-align: center;
+  font-size: 42px;
+  font-weight:  bold;
+  margin-bottom: 50px;
+  
 }
 
 .card-container {
@@ -147,6 +151,16 @@ nav .nav-container {
   flex-direction: column;
 }
 
+.card-review-name{
+  font-weight: bold;
+   color: #374151;
+   font-size: 14px;
+}
+
+.card-review-data{
+  font-size: 13px;
+  color: #B3B3B3;
+}
 
 .card-img-container > img{
   width: 40px;
